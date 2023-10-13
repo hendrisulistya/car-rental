@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ghany Mubaraq Group</title>
+    <link rel="icon" href="./assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
+      <div class="flex items-center">
+        <img src='assets/Logo_black.svg' alt="Logo" class="h-10" />
+      </div>
+      <ul class="font-montserrat items-center hidden md:flex">
+        <li class="growing-underline mx-3">
+          <a href="#home">Beranda</a>
+        </li>
+        <li class="growing-underline mx-3">
+          <a href="#mobil">Sewa Mobil</a>
+        </li>
+        <li class="growing-underline mx-3">
+          <a href="#motor">Sewa Motor</a>
+        </li>
+        <li class="growing-underline mx-3">
+          <a href="#contact">Hubungi Kami</a>
+        </li>
+        <li class="growing-underline mx-3">
+          <a href="#faq">FAQs</a>
+        </li>
+      </ul>
+      <div id="showMenu" class="md:hidden">
+        <img src='assets/logos/Menu.svg' alt="Menu icon" />
+      </div>
+    </nav>
+    <div id='mobileNav' class="hidden px-4 py-6 fixed top-0 left-0 h-full w-full bg-secondary z-20 animate-fade-in-down">
+      <div id="hideMenu" class="flex justify-end">
+        <img src='assets/logos/Cross.svg' alt="" class="h-16 w-16" />
+      </div>
+      <ul class="font-montserrat flex flex-col mx-8 my-24 items-center text-3xl">
+        <li class="my-6">
+          <a href="#home">Beranda</a>
+        </li>
+        <li class="my-6">
+          <a href="#mobil">Sewa Mobil</a>
+        </li>
+        <li class="my-6">
+          <a href="#motor">Sewa Motor</a>
+        </li>
+        <li class="my-6">
+          <a href="#contact">Hubungi Kami</a>
+        </li>
+        <li class="my-6">
+          <a href="#faq">FAQs</a>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Home -->
+    <div id="home"></div>
+    
+    <!-- Sewa Mobil -->
+    <div id="mobil"></div>
+    <div id="mobilallin"></div>
+    <div id="mobilvvip"></div>
+  
+    <!-- Partnership -->
+    <div id="partner"></div>
+    
+    <!-- Sewa Motor -->
+    <div id="motor"></div>
+    
+    <!-- Hubungi kami -->
+    <section id="contact" class="sectionSize bg-secondary py-0">
+      <div class="py-4 bg-gray-100 text-gray-900">
+        <div class="container mx-auto flex flex-col md:flex-row my-12 md:my-36">
+          <div class="flex flex-col w-full lg:w-2/5 p-8">
+            <p class="text-3xl md:text-5xl text-gray-900 my-4 leading-relaxed md:leading-snug">Hubungi Kami</p>
+            <a href="https://maps.app.goo.gl/C1FzUg9bPcvpQVLx6" target="_blank">
+              <p class="font-sans text-sm md:text-lg my-2 md:my-4 hover:text-gray-500">
+                <svg class="inline-block fill-current mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+                </svg>Jl Poncowiryo, Gunung Gempal, Giripeni, Wates Kab. Kulon Progo, Daerah Istimewa Yogyakarta 55651.
+              </p>
+            </a>
+            <p class="font-sans text-sm md:text-lg my-2 md:my-4 hover:text-gray-500">
+              <svg class="inline-block fill-current mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
+              </svg> ghany.tour@gmail.com
+            </p>
+            <a href="https://wa.me/6285201022226?text=Halo%2C%0ASaya%20ingin%20rental%20kendaraan" target="_blank">
+            <p class="font-sans text-sm md:text-lg my-2 md:my-4 hover:text-gray-500">
+              <svg class="inline-block fill-current mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+              </svg>+62 852 0102 2226
+            </p>
+            </a>
+          </div>
+          <div class=" flex flex-col lg:w-3/5 justify-center w-full lg:-mt-12">
+            <div class="container">
+              <div class="relative flex flex-col min-w-0 break-words w-full">
+                <div class="flex p-5 lg:p-10 w-full justify-center ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.2909130149624!2d110.1714949!3d-7.864594699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7afb560f07a959%3A0x247ab23c341d3e56!2sNew%20Garasi%20CV%20Ghany%20tour!5e0!3m2!1sid!2sid!4v1697094764585!5m2!1sid!2sid" width="360" height="300" style="border:0; align-self: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- FAQ  -->
+    <div id="faq"></div>
+    
+    <!-- Footer -->
+    <div id="footer"></div>
+    
+
+    <script>
+      function loadComponent(componentName, containerId) {
+        fetch(`./component/${componentName}.html`)
+          .then(response => response.text())
+          .then(data => {
+            const container = document.getElementById(containerId);
+            container.innerHTML = data;
+          });
+      }
+    
+      document.addEventListener('DOMContentLoaded', function() {
+        loadComponent('Home', 'home');
+        loadComponent('Mobil', 'mobil');
+        loadComponent('MobilAllIn', 'mobilallin');
+        loadComponent('MobilVvip', 'mobilvvip');
+        loadComponent('Partner', 'partner');
+        loadComponent('Motor', 'motor');
+        loadComponent('Faq', 'faq');
+        loadComponent('Footer', 'footer');
+      });
+    </script>
+    
+
+  </body>
+</html>
