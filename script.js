@@ -1,16 +1,26 @@
 window.addEventListener("load", function () {
   console.log(document.querySelector("#showMenu"));
-  document
-    .querySelector("#showMenu")
-    .addEventListener("click", function (event) {
-      document.querySelector("#mobileNav").classList.remove("hidden");
-    });
+document
+  .querySelector("#showMenu")
+  .addEventListener("click", function (event) {
+    document.querySelector("#mobileNav").classList.remove("hidden");
+  });
 
-  document
-    .querySelector("#hideMenu")
-    .addEventListener("click", function (event) {
+document
+  .querySelector("#hideMenu")
+  .addEventListener("click", function (event) {
+    document.querySelector("#mobileNav").classList.add("hidden");
+  });
+
+// Add an event listener to each menu item in the mobile navigation
+document
+  .querySelectorAll("#mobileNav a")
+  .forEach(function (menuItem) {
+    menuItem.addEventListener("click", function (event) {
+      // Hide the mobile navigation when a menu item is clicked
       document.querySelector("#mobileNav").classList.add("hidden");
     });
+  });
 
   document.querySelectorAll("[toggleElement]").forEach((toggle) => {
     toggle.addEventListener("click", function (event) {
